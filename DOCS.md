@@ -16,10 +16,10 @@ Updates the number of characters and lines using provided text document.
 
 Processing during WillSaveTextDocument event. 
 
-Calculates the change in number of characters and lines, creates string to display it and shows information message with this data.
+Calculates the change in number of characters and lines, creates a string to display it and shows information message with this data.
 
 **Arguments:**
-- `document` (vscode.TextDocument) - text document that will be updated and is used for calculating the change in number of characters and lines.
+- `document` (vscode.TextDocument) - text document that will be saved and is used for calculating the change in number of characters and lines.
 
 **Returns:**
 - void
@@ -106,5 +106,6 @@ Toggles the plugin on/off.
 
 | Commit Hash | Message |
 |-------------|---------|
+| `6b1c381` | Added documentation |
 | `f373712` | Added code comments |
 | `892f4ce` | Implemented basic functionality |
